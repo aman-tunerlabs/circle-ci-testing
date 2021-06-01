@@ -1,7 +1,7 @@
 version: 2.17
 jobs:
   build:
-    working_directory: ~/project
+    working_directory: ~/circle-ci-testing
     docker:
       - image: circleci/node:10.0.0
     steps:
