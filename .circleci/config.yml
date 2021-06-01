@@ -5,7 +5,7 @@ jobs:
       - image: circleci/node:10.0.0
     steps:
       - checkout:
-          path: ~/circle-ci-testing
+          path: cd ..
       - run:
           name: update-npm
           command: 'sudo npm install -g npm@latest'
